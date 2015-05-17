@@ -1,0 +1,150 @@
+/*Globals*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+a{
+    text-decoration: none;
+    color: #005291;
+}
+
+body {
+    line-height:1;
+    background: #CCDCE9 url(http://www.hsr.ch/fileadmin/templates/hsr/html/img/layout/body-bg.gif) no-repeat bottom center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+.page-wrapper{
+    position: relative;
+    margin: 0px auto;
+    padding: 0px;
+    width: 959px;
+    background-color: #FFFFFF;
+}
+.intro{
+    display: block;
+    width: 959px;
+    height: 195px;
+    background: url(http://www.hsr.ch/uploads/tx_icsslide/Header_Campus_01.jpg) left top no-repeat;
+}
+.intro header h1, .intro header h2{
+    display: none;
+}
+.intro header{
+    background: url(http://www.hsr.ch/fileadmin/templates/hsr/html/img/logo.gif) left top no-repeat;
+    width: 194px;
+    height: 69px;
+    margin-left: 18px;
+}
+.summary{
+    position: absolute;
+    display: block;
+    visibility: visible;
+    top: 84px;
+    left: 20px;
+    width: 180px;
+    height: 98px;
+    background: none;
+    z-index: 3;
+}
+.summary p{
+    display: block;
+    overflow: hidden;
+    width: 180px;
+    height: 25px;
+    margin-top: 5px;
+    line-height: 25px;
+    color: #005291;
+    padding:4px 10px 4px 5px;
+    font-size: 12px;
+    font-weight: bold;
+    background: #FFF url(http://www.hsr.ch/fileadmin/templates/hsr/html/img/navigation/right1.gif) no-repeat 100% center;
+}
+.preamble p{
+    display: none;
+}
+.preamble h3{
+    position: absolute;
+    margin-left: 290px;
+    top:0px;
+    display: block;
+    overflow: hidden;
+    height: 25px;
+    line-height: 25px;
+    color: #005291;
+    padding: 4px 10px 4px 5px;
+    background-color: #FFFFFF;
+}
+.main{
+    margin-left: 200px;
+    padding: 15px 0px 20px 0px;
+    line-height: 18px;
+    width: 580px;
+}
+.main h3{
+    line-height: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+    padding: 3px 0;
+}
+aside{
+    position: absolute;
+    top: 200px;
+    padding: 15px 0px 10px 18px;
+    margin: 0px;
+    width: 160px;
+}
+aside ul li{
+    list-style-type: none;
+    border-bottom: 1px ;
+    border-bottom: 1px solid #b3b4b5;
+    line-height: 18px;
+    padding: 3px 0;
+}
+aside ul li a{
+    color: #005291;
+    text-decoration: none;
+}
+aside ul li a:hover{
+    color: #F57D00;
+}
+aside h3{
+    line-height: 18px;
+    color: #F57D00;
+    font-weight: bold;
+    padding: 3px 0;
+}
+.explanation h3{
+    margin-top: 10px;
+    background-color: #005291;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    padding: 3px;
+}
+p[role="contentinfo"] {
+    position: absolute;
+    top:105px;
+    margin-left: 593px;
+    width: 135px;
+    height: 180px;
+    padding: 5px;
+    font-size: 10px;
+    background: #CCDCE9 url(http://www.hsr.ch/fileadmin/user_upload/customers/hsr/bachelor/uebergreifende_informationen/hochschuldienst.jpg) no-repeat 0px 80px;
+}
